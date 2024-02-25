@@ -21,13 +21,13 @@ function Page() {
               {
                 label: 'g₁: x + y = 3',
                 data: [-0.2, 0.4, 1, 1.6, 2.2, 2.8],
-                borderColor: 'blue',
+                borderColor: 'pink',
                 fill: false,
               },
               {
                 label: 'g₂: 3x - 5y = 1',
                 data: [0.8, 0.2, -0.4, -1, -1.6, -2.2],
-                borderColor: 'red',
+                borderColor: 'purple',
                 fill: false,
               },
             ],
@@ -69,16 +69,16 @@ function Page() {
         <div className="flex space-x-4 mb-4">
             <button className="bg-gradient-to-br from-blue-500 to-pink-600 text-white px-1 py-1 w-full rounded-full transition-all duration-300">
                 <span className="block bg-[#181818] hover:bg-[#333] rounded-full px-5 py-2">    
-                  <Link href="/penyimpanganSpl">
+                  <Link href="/./spl/penyimpanganSpl">
                     Go back a page 🚀
                   </Link>
                 </span>
             </button>
             <button className="bg-gradient-to-br from-blue-500 to-pink-600 text-white px-1 py-1 w-full rounded-full transition-all duration-300">
                 <span className="block bg-[#181818] hover:bg-[#333] rounded-full px-5 py-2">    
-                  {/* <Link href="spl/"> */}
+                  <Link href="/./finished">
                     Continue learning 🚀
-                  {/* </Link> */}
+                  </Link>
                 </span>
             </button>
           </div>
