@@ -46,9 +46,15 @@ function page() {
 
             </div>
 
-            {/* <p className="text-white text-base sm:text-lg mb-6 lg:text-xl">
-              Let's start studying <i>aljabar linier</i> with me! 🚀
-            </p> */}
+            <div className="flex space-x-4 mb-4">
+              <button className="bg-gradient-to-br from-blue-500 to-pink-600 text-white px-1 py-1 w-full rounded-full transition-all duration-300">
+                  <span className="block bg-[#181818] hover:bg-[#333] rounded-full px-5 py-2">    
+                    <Link href="spl/penyimpanganSpl">
+                      Continue learning 🚀
+                    </Link>
+                  </span>
+              </button>
+            </div>
 
             <div className="flex space-x-4">
               <button className="bg-gradient-to-br from-blue-500 to-pink-600 text-white px-1 py-1 w-full rounded-full transition-all duration-300">
